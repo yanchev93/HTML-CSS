@@ -1,0 +1,24 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  max-width: 1400px;
+  background: rgb(238, 238, 238);
+}
+
+section {
+  display: inline-block;
+  width: 900px;
+}
+
+aside {
+  display: inline-block;
+  vertical-align: top;
+  width: 450px;
+}
+
+img {
+  max-width: 600px;
+  max-height: 300px;
+}
