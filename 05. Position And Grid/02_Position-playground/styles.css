@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+section {
+  display: block;
+}
+
+img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.viewport {
+  height: 100vh;
+  position: relative;
+}
+
+.viewport:nth-child(1) {
+  background: linear-gradient(
+    90deg,
+    rgba(24, 91, 157, 1) 0%,
+    rgba(44, 146, 159, 1) 50%,
+    rgba(66, 203, 162, 1) 100%
+  );
+}
+
+.viewport:nth-child(2) {
+  background: linear-gradient(
+    90deg,
+    rgba(168, 50, 120, 1) 0%,
+    rgba(187, 89, 69, 1) 50%,
+    rgba(209, 128, 21, 1) 100%
+  );
+}
