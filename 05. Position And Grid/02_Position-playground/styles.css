@@ -1,9 +1,16 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
 body {
   margin: 0;
 }
 
 section {
   display: block;
+}
+
+/* remove this part so it can look better */
+.card {
+  position: absolute;
 }
 
 img {
@@ -34,4 +41,15 @@ img {
     rgba(187, 89, 69, 1) 50%,
     rgba(209, 128, 21, 1) 100%
   );
+}
+
+i {
+  color: white;
+  position: absolute;
+  top: 68%;
+  left: 64%;
+}
+
+.viewport:nth-child(2) i {
+  transform: translate(0px, 210px);
 }
